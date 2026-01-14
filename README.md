@@ -1,16 +1,66 @@
-# practos1
+# practos1 — Flutter Notes App
 
-A new Flutter project.
+Простое мобильное приложение **«Заметки»**, написанное на **Flutter**.  
+Проект выполнен в рамках практической работы по теме:
 
-## Getting Started
+> **Работа с текстом в Flutter: TextEditingController и ListView**
 
-This project is a starting point for a Flutter application.
+---
+### Главный экран
+![Главный экран](screenshots/main_screen.png)
 
-A few resources to get you started if this is your first Flutter project:
+### Удаление заметки
+![Список заметок](screenshots/notes_list.png)
+![Список заметок](screenshots/delete_result.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Редактирование заметки
+![Редактирование](screenshots/edit_note.png)
+![Редактирование](screenshots/edit_note_result.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## 📱 Описание приложения
+
+Приложение позволяет:
+- вводить текст заметки
+- сохранять заметки
+- отображать их в виде списка
+- редактировать существующие заметки
+- удалять заметки
+
+---
+
+## ✅ Реализованный функционал
+
+### На оценку 4
+- Поле ввода текста (`TextField`)
+- Кнопка **«Сохранить»**
+- Отображение заметок с помощью `ListView.builder`
+
+### На оценку 5
+- Удаление заметок
+- Редактирование заметок
+- Использование `TextEditingController`
+- Динамический список (`ListView.builder`)
+
+---
+
+## 🛠 Используемые технологии
+
+- Flutter
+- Dart
+- Material UI
+- TextEditingController
+- ListView.builder
+
+---
+
+## 📂 Структура проекта
+
+```text
+practos1/
+├── lib/
+│   └── main.dart
+├── android/
+├── ios/
+├── pubspec.yaml
+└── README.md
